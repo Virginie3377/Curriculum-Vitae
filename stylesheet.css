@@ -1,0 +1,369 @@
+body{
+    background-color: rgb(104,187,285);
+
+}
+.clear{
+clear:both;	
+}
+
+/*///////////////////////
+        Header
+///////////////////////*/
+
+#header {
+    width: 80%;
+    background-color: rgb(72,176,230);
+    text-align: center;
+    margin: 20px auto;
+    padding: 40px auto;
+    border: 1px solid #58585a; 
+}
+h1{
+    font-size: 30px;
+    font-family: 'Sansita', sans-serif;
+}
+
+/*///////////////////////
+      Container
+///////////////////////*/
+
+#container{
+    width: 80%;
+    height: 950px;
+    background-color: rgb(72,176,230);
+    margin:0px auto;
+    padding: 0px auto;
+    border: 1px solid #58585a; 
+    display: block;
+}
+
+h2{
+   font-size: 25px;
+   color: black;
+   padding-top: 10px;
+   text-align: center;
+   font-family: 'Josefin Sans', sans-serif;
+}
+h4{
+   font-size: 18px;
+   color: black;
+   margin-top: -10px;
+   text-align: center;
+   font-family: 'Josefin Sans', sans-serif;
+}
+
+h3{
+   font-size: 15px;
+   color: white;
+   padding-left: 10px;
+   font-family: 'Abril Fatface', cursive;
+}
+
+p {
+    padding: 0px 10px 0px 10px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+li {
+    width: 80%;
+    margin: 0px 0px 0px 10px;
+    padding: 0px 0px 0px 0px;
+    color: white;
+    font-size: 18px;
+    word-wrap: break-word;
+    line-height: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#left-box{
+    float: left;
+    width: 30%;
+    height: 910px;
+    margin: 20px 0px 20px 20px;
+    background-color: rgb(117,164,206);
+    border: 1px solid #58585a; 
+}
+
+#right-box{
+    float: right;
+    width: 60%;
+    height: 910px;
+    margin: 20px 20px 20px 0px;
+    background-color: rgb(117,164,206);  
+    border: 1px solid #58585a; 
+}
+
+#experience-box, #studies-box {
+    background-color: white;
+    margin: 20px 20px 20px 20px;
+    padding-bottom: 15px;
+}
+
+.experience, .study {
+    background-color: rgb(9,30,45);
+    margin: 20px 20px 20px 20px;
+    padding-bottom: 10px;
+
+}
+
+.images {
+    padding-top: 20px; 
+}
+
+#footer {
+    width: 80%;
+    height: 90px;
+    background-color: rgb(72,176,230);
+    margin:20px auto;
+    padding: 0px auto;
+    border: 1px solid #58585a; 
+    display: block;
+}
+
+/*///////////////////////
+      Responsive
+///////////////////////*/
+
+@media screen and (max-width:1150px){
+#container{
+    width: 80%;
+    height: 970px;
+}
+#left-box{
+    float: left;
+    width: 30%;
+    height: 930px;
+}
+#right-box{
+    float: right;
+    width: 60%;
+    height: 930px;
+}
+}
+
+@media screen and (max-width:1100px){
+#container{
+    width: 80%;
+    height: 1010px;
+}
+#left-box{
+    float: left;
+    width: 30%;
+    height: 970px;
+}
+#right-box{
+    float: right;
+    width: 60%;
+    height: 970px;
+}
+}
+
+@media screen and (max-width:1000px){
+#container{
+    width: 80%;
+    height: 1050px;
+}
+#left-box{
+    float: left;
+    width: 30%;
+    height: 1010px;
+}
+#right-box{
+    float: right;
+    width: 60%;
+    height: 1010px;
+}
+}
+
+@media screen and (max-width:850px){
+#experience-box, #studies-box {
+    background-color: white;
+    margin: 20px 20px 20px 20px;
+    padding-bottom: 10px;
+}
+li {
+    line-height: 25px;
+}
+ul{
+    margin-bottom: 28px;
+}
+}
+
+@media screen and (max-width:750px){
+li {
+    line-height: 23px;
+}
+ul{
+    margin-bottom: 22px;
+}
+}
+@media screen and (max-width:700px){
+#container{
+    width: 80%;
+    height: 1080px;
+}
+#left-box{
+    float: left;
+    width: 30%;
+    height: 1040px;
+}
+#right-box{
+    float: right;
+    width: 60%;
+    height: 1040px;
+}
+}
+@media screen and (max-width:650px){
+#container{
+    width: 80%;
+    height: 1010px;
+}
+#left-box{
+    float: left;
+    width: 30%;
+    height: 970px;
+}
+#right-box{
+    float: right;
+    width: 60%;
+    height: 970px;
+}
+.experience, .study {
+    background-color: rgb(9,30,45);
+    margin: -10px 20px 15px 20px;
+    padding-bottom: 10px;
+}
+
+li {
+    width: 100%;
+    margin: 0px 0px 0px -15px;
+    color: white;
+    font-size: 17px;
+    word-wrap: break-word;
+    line-height: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+p {
+    margin-top: -10px;
+    padding: 0px 10px 0px 10px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+}
+@media screen and (max-width:600px){
+#container{
+    width: 80%;
+    margin:0px auto;
+    padding: 0px auto;
+    height: 1950px;
+}
+#left-box{
+    width: 80%;
+    margin: 30px 30px 30px 45px;
+    height: 45%;
+}
+#right-box{
+    width: 80%;
+    margin: 0px 45px 0px 0px;
+    height: 50%;
+}
+#experience-box, #studies-box {
+    background-color: white;
+    margin: 20px 20px 20px 20px;
+    padding-bottom: 10px;
+}
+
+.experience, .study {
+    background-color: rgb(9,30,45);
+    margin: 20px 20px 20px 20px;
+    padding-bottom: 10px;
+
+}
+}
+
+@media screen and (max-width:550px){
+
+#left-box{
+    width: 80%;
+    margin: 30px 30px 30px 40px;
+    height: 45%;
+}
+#right-box{
+    width: 80%;
+    margin: 0px 42px 0px 0px;
+    height: 50%;
+}
+}
+
+@media screen and (max-width:500px){
+#left-box{
+    width: 80%;
+    margin: 30px 30px 30px 40px;
+    height: 45%;
+}
+#right-box{
+    width: 80%;
+    margin: 0px 35px 0px 0px;
+    height: 50%;
+}
+}
+
+@media screen and (max-width:450px){
+#container{
+    width: 80%;
+    margin:0px auto;
+    padding: 0px auto;
+    height: 2050px;
+}
+#left-box{
+    width: 80%;
+    margin: 30px 30px 30px 40px;
+    height: 40%;
+}
+#right-box{
+    width: 80%;
+    margin: 0px 30px 0px 0px;
+    height: 53%;
+}
+}
+
+@media screen and (max-width:400px){
+#container{
+    width: 80%;
+    margin:0px auto;
+    padding: 0px auto;
+    height: 2050px;
+}
+#left-box{
+    width: 80%;
+    margin: 30px 25px 25px 35px;
+    height: 40%;
+}
+#right-box{
+    width: 80%;
+    margin: 0px 25px 0px 0px;
+    height: 56%;
+}
+}
+
+@media screen and (max-width:350px){
+#header {
+    width: 90%;
+    background-color: rgb(72,176,230);
+    text-align: center;
+    margin: 20px auto;
+    padding: 40px auto;
+    border: 1px solid #58585a; 
+}
+#container{
+    width: 90%;
+    margin:0px auto;
+    padding: 0px auto;
+    height: 2050px;
+}
+#footer {
+    width: 90%;
+   
+}
+
+}
